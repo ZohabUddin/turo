@@ -1,0 +1,43 @@
+.ant-divider-horizontal {
+  margin: 6px 0px;
+}
+
+@media only screen and (min-width: 768px) {
+  .ant-divider-horizontal {
+    margin: 6px 0px;
+    width: 90%;
+    min-width: 90%;
+  }
+  .accordContainer {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 770px;
+  }
+  .accordContainer1 {
+    width: 100%;
+  }
+  .accordContainer2 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+    .ant-divider-horizontal {
+    margin: 6px 0px;
+    width: 90%;
+    
+  }
+  .accordContainer {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1064px;
+  }
+  .accordContainer1 {
+    width: 100%;
+  }
+  .accordContainer2 {
+    width: 100%;
+  }
+
+}

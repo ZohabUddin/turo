@@ -1,0 +1,29 @@
+.ending {
+}
+.endingContainer {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  font-size: 12px;
+  width: 56em;
+  margin-left: 5em;
+  padding: 2em 13em;
+}
+.endingContainerItem {
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+  .ending {
+  }
+  .endingContainer {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    width: 56em;
+    margin-left: 5em;
+    padding: 2em 3em;
+  }
+  .endingContainerItem {
+  }
+}

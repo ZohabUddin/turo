@@ -1,0 +1,252 @@
+/* .footer {
+    background-color: #f4f4f4;
+  }
+  
+  .footerSectionA {
+    display: flex;
+    margin: 0 auto;
+    width: 60em;
+  }
+  
+  .blogPara {
+    padding: 2px 4px;
+    border-radius: 3px;
+    line-height: 13px;
+    text-transform: uppercase;
+    border: 1px solid #231f20;
+    color: #231f20;
+    font-size: 11px;
+    width: 3em;
+  }
+  
+  .sectionA {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5em;
+    justify-content: space-around;
+  }
+  
+  .sectionB {
+    margin-top: 1em;
+  }
+  
+  .sectionC {
+    margin-top: 1em;
+  }
+  
+  .sectionD {
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 6em;
+  }
+  
+  .section5 {
+  }
+  
+  .footerSection1 {
+    display: flex;
+    width: 70%;
+  }
+  
+  .footerSection2 {
+    width: 21%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sectionDPara {
+    font-size: 0.8em;
+  }
+  .footerSection3 {
+    display: flex;
+    width: 80%;
+  }
+  .footerSection3A {
+    display: flex;
+    width: 50%;
+    margin-left: 11em;
+  }
+  .footerSection3B {
+    display: flex;
+    width: 34%;
+    margin-top: 2em;
+  }
+  
+  @media only screen and (max-width: 1200px) and (min-width: 992px) {
+    .footer {
+      background-color: #f4f4f4;
+    }
+  
+    .footerSectionA {
+      display: flex;
+      margin: 0 auto;
+      width: 60em;
+    }
+  
+    .blogPara {
+      padding: 2px 4px;
+      border-radius: 3px;
+      line-height: 13px;
+      text-transform: uppercase;
+      border: 1px solid #231f20;
+      color: #231f20;
+      font-size: 11px;
+      width: 3em;
+    }
+  
+    .sectionA {
+      display: flex;
+      align-items: center;
+      margin-top: 1.5em;
+      justify-content: space-around;
+    }
+  
+    .sectionB {
+      margin-top: 1em;
+    }
+  
+    .sectionC {
+      margin-top: 1em;
+    }
+  
+    .sectionD {
+      margin-top: 2em;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 6em;
+    }
+  
+    .section5 {
+    }
+  
+    .footerSection1 {
+      display: flex;
+      width: 70%;
+    }
+  
+    .footerSection2 {
+      width: 21%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .sectionDPara {
+      font-size: 0.8em;
+    }
+    .footerSection3 {
+      display: flex;
+      width: 92%;
+    }
+    .footerSection3A {
+      display: flex;
+      width: 50%;
+      margin-left: 4em;
+    }
+    .footerSection3B {
+      display: flex;
+      width: 34%;
+      margin-top: 2em;
+    }
+  } */
+.footerMainContainer {
+  font-family: RlBasisGrotesque, Avenir, Helvetica Neue, Helvetica, sans-serif;
+  background-color: #f4f4f4
+  ;
+  margin-top: -45px;
+}
+.section1 {
+  display: flex;
+  min-width: 768px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top:40px;
+  max-width: 943px;
+}
+.section1a {
+  display: flex;
+  width: 70%;
+  padding: 10px;
+  justify-content: space-around;
+}
+.section1b {
+  width: 30%;
+}
+.footerHead {
+  font-size: 16px;
+  font-weight: 900;
+}
+.footerText {
+  font-size: 12px;
+  font-weight: 500;
+  margin: 10px 0px;
+}
+.section1b1 {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.section1b1Text {
+  border: 1px solid black;
+  width: 40px;
+  padding: 2px 4px;
+  font-size: 11px;
+  border-radius: 3px;
+  color: #231f20;
+}
+.section1b3 {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.section1b1Icon {
+  margin: 0px 8px;
+}
+.section1b2 {
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.section1b2Icon {
+  margin: 0px 5px;
+}
+.section1b3Icon {
+  margin: 0px 3px;
+}
+.section2 {
+  display: flex;
+  min-width: 768px;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 943px;
+}
+.section2a {
+  display: flex;
+  width: 95%;
+  padding: 10px;
+  justify-content: space-around;
+}
+.footerSection3 {
+  font-weight: 500;
+  font-size: 12px;
+  color: #121214;
+  padding: 15px;
+  width: 50%;
+  margin: 0 auto;
+}
+.footerSection3a {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footerSection3aText {
+  margin: 10px 5px;
+}
+.footerSection3aText:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

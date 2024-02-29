@@ -1,0 +1,35 @@
+.carouselContainer4 {
+  width: 90%;
+  margin: 0px auto;
+  font-family: RlBasisGrotesque, Avenir, Helvetica Neue, Helvetica, sans-serif;
+  margin-top: 160px;
+}
+
+.carousel4Heading {
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.carousel4HeadingContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 97%;
+}
+
+@media only screen and (min-width: 600px) {
+  .carouselContainer4 {
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 160px;
+  }
+  .carousel4Heading {
+    font-size: 16px;
+    font-weight: 900;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .carousel4Heading {
+    font-size: 21px;
+    font-weight: 900;
+  }
+}

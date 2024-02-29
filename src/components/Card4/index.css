@@ -1,0 +1,97 @@
+.card4MainContainer {
+  font-family: RlBasisGrotesque, Avenir, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 20px;
+  width: 93%;
+  margin: 20px auto;
+}
+.card4MainContainer:hover {
+  cursor: pointer;
+}
+.card4ImgContainer {
+}
+.card4ImgStyling {
+  width: 85vw;
+  height: 50vw;
+}
+.card4Section2 {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.card4IconContainer {
+  margin: 0 5px;
+}
+.card4IconStyling {
+}
+.card4TextContainer {
+  margin: 0 5px;
+}
+.card4Text {
+}
+
+@media only screen and (min-width: 600px) {
+  .card4MainContainer {
+    font-family: RlBasisGrotesque, Avenir, "Helvetica Neue", Helvetica,
+      sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+    width: 93%;
+    margin: 20px auto;
+  }
+  .card4ImgContainer {
+  }
+  .card4ImgStyling {
+    width: 35vw;
+    height: 35vw;
+  }
+  .card4Section2 {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+  }
+  .card4IconContainer {
+    margin: 0 5px;
+  }
+  .card4IconStyling {
+  }
+  .card4TextContainer {
+    margin: 0 5px;
+  }
+  .card4Text {
+  }
+}
+@media only screen and (min-width: 992px) {
+  .card4MainContainer {
+    font-family: RlBasisGrotesque, Avenir, "Helvetica Neue", Helvetica,
+      sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+    width: 93%;
+    margin: 20px auto;
+  }
+  .card4ImgContainer {
+  }
+  .card4ImgStyling {
+    width: 25vw;
+    height: 25vw;
+  }
+  .card4Section2 {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+  }
+  .card4IconContainer {
+    margin: 0 5px;
+  }
+  .card4IconStyling {
+  }
+  .card4TextContainer {
+    margin: 0 5px;
+  }
+  .card4Text {
+  }
+}

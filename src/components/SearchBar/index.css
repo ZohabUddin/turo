@@ -1,0 +1,210 @@
+.searchBarImg {
+  height: 500px;
+  width: 100%;
+}
+.searchBarDivider {
+  height: 1px;
+  background-color: grey;
+  width: 90%;
+}
+.searchBarInput {
+  border: none;
+  outline: none;
+}
+.searchBarSection2SectionB {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 500;
+}
+.searchBarSection3SectionB {
+  display: flex;
+  justify-content: space-around;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 768px) {
+  .searchBarMainContainer {
+    position: relative;
+  }
+  .searchBarContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+    padding: 2px;
+    font-family: RlBasisGrotesque, Avenir, "Helvetica Neue", Helvetica,
+      sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    width: 720px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    left: 50vw;
+
+    transform: translate(-50%, -50%);
+  }
+  .searchBarInput {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .searchBarSection1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .searchBarSection1SectionB {
+    margin-top: 5px;
+  }
+  .searchBarSection2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .searchBarSection3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .searchBarSection4 {
+    display: flex;
+    flex-direction: column;
+  }
+  .searchBarSection2SectionB {
+    display: flex;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .searchBarSection3SectionB {
+    display: flex;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .searchIconContainer {
+    background-color: #593cfb;
+    padding: 10px;
+    border-radius: 25px;
+  }
+  .downArrow {
+    margin: 0px 5px;
+  }
+  .searchBarImg {
+    height: 400px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .searchBarImg {
+    height: 400px;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .searchBarImg {
+    height: 400px;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .searchBarImg {
+    height: 400px;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  .searchBarImg {
+    height: 400px;
+    width: 100%;
+  }
+}
+
+/* code for mobile */
+.mobileSearchBarDivider {
+  height: 1px;
+  background-color: grey;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.mobileSearchBarMainContainer {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  font-family: RlBasisGrotesque, Avenir, Helvetica Neue, Helvetica, sans-serif;
+
+  margin-top: 30px;
+}
+.mobileSearchBarContainer {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  width: 95%;
+  max-width: 420px;
+}
+.mobileSearchBarContainerSection1 {
+}
+.mobileSearchBarContainerSection1Text {
+  font-size: 12px;
+  font-weight: 500;
+}
+.mobileSearchBarContainerSection1Input {
+  border: none;
+  outline: none;
+  margin-top: 10px;
+  width: 100%;
+}
+.mobileSearchBarContainerSection1Input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.mobileSearchBarContainerSection2 {
+}
+.mobileSearchBarSection2Text {
+  margin-top: 5px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.mobileSearchBarSection2TimeDateMainContainer {
+  display: flex;
+  margin-top: 10px;
+}
+.mobileSearchBarSection2TimeDateContainer {
+  display: flex;
+  font-size: 16px;
+  font-weight: 500;
+}
+.mobileSearchBarSection2Date {
+}
+.mobileSearchBarSection2Img {
+  margin-left: 10vw;
+}
+.mobileSearchBarSection2Time {
+}
+
+.mobileSearchBarContainerSection4Btn {
+  margin-top: 5px;
+  background-color: #6919f4;
+  border: none;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.mobileSearchBarImg {
+  position: relative;
+  top: -25px;
+  width: 100%;
+  height: 500px;
+  z-index: -1;
+}

@@ -1,0 +1,165 @@
+.slider2CardContainer {
+  font-family: RlBasisGrotesque, Avenir, "Helvetica Neue", Helvetica, sans-serif;
+}
+.slider2ImgContainer {
+  width: 54vw;
+  margin: 0 auto;
+}
+.slider2Img {
+  width: 100%;
+}
+.slider2Container2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.slider2Container2Text1 {
+  font-size: 21px;
+  font-weight: 900;
+}
+.slider2Container2Text1a {
+}
+.slider2Container2Text1b {
+  color: #5948fb;
+}
+.slider2Container2Text2 {
+  font-weight: 400;
+  font-size: 16px;
+  margin: 15px 0;
+}
+.slider2Container2Text2Para {
+}
+.slider2BtnContainer {
+  margin: 15px auto;
+  min-width: 20%;
+}
+.slider2Btn {
+  background-color: #593cfb;
+  color: white;
+  font-size: 18px;
+  padding: 12px;
+  border: none;
+}
+.slider2NavBtnContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 95%;
+}
+
+@media only screen and (min-width: 768px) {
+  .slider2CardContainer {
+    font-family: RlBasisGrotesque, Avenir, "Helvetica Neue", Helvetica,
+      sans-serif;
+  }
+  .slider2ImgContainer {
+    width: 42vw;
+    margin: 0 auto;
+  }
+  .slider2Img {
+    width: 100%;
+  }
+  .slider2Container2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .slider2Container2Text1 {
+    font-size: 28px;
+    font-weight: 900;
+  }
+  .slider2Container2Text1a {
+  }
+  .slider2Container2Text1b {
+    color: #5948fb;
+  }
+  .slider2Container2Text2 {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 15px 0;
+  }
+  .slider2Container2Text2Para {
+  }
+  .slider2BtnContainer {
+    margin: 15px auto;
+    min-width: 20%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .slider2Btn {
+    background-color: #593cfb;
+    color: white;
+    font-size: 18px;
+    padding: 12px;
+    border: none;
+  }
+  .slider2NavBtnContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 95%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .slider2CardContainer {
+    font-family: RlBasisGrotesque, Avenir, "Helvetica Neue", Helvetica,
+      sans-serif;
+      display: flex;
+  }
+  .slider2ImgContainer {
+    width: 41%;
+    margin: 0 auto;
+  }
+  .slider2Img {
+    width: 100%;
+  }
+  .slider2Container2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 46%;
+  }
+  .slider2Container2Text1 {
+    font-size: 28px;
+    font-weight: 900;
+  }
+  .slider2Container2Text1a {
+  }
+  .slider2Container2Text1b {
+    color: #5948fb;
+  }
+  .slider2Container2Text2 {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 15px 0;
+  }
+  .slider2Container2Text2Para {
+  }
+  .slider2BtnContainer {
+    margin: 15px auto;
+    min-width: 20%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .slider2Btn {
+    background-color: #593cfb;
+    color: white;
+    font-size: 18px;
+    padding: 12px;
+    border: none;
+  }
+  .slider2NavBtnContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 97%;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+
+  .slider2CardContainer {
+    font-family: RlBasisGrotesque, Avenir, "Helvetica Neue", Helvetica,
+      sans-serif;
+      display: flex;
+      max-width: 1200px;
+      margin: 0px auto;
+  }
+}

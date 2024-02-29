@@ -1,0 +1,106 @@
+.giftCardContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.giftCardContainer2Heading {
+  font-size: 21px;
+  font-weight: 900;
+  margin-top: 10px;
+}
+.giftCardContainer2Para {
+  font-size: 16px;
+  font-weight: 400;
+  width: 100%;
+  line-height: 1.4;
+  margin-top: 10px;
+}
+
+.giftCardContainer2Btn {
+  background-color: #593cfb;
+  color: white;
+  line-height: 50px;
+  font-weight: bold;
+  border: 1px solid white;
+  font-size: 18px;
+  padding: 0px 10px;
+  margin: 15px 0 0 0;
+}
+.giftCardContainer1 {
+  width: 100%;
+  background-color: #f9f4ff;
+  display: flex;
+  justify-content: center;
+}
+.giftCardContainer1Img {
+  width: 94%;
+  max-width: 366px;
+}
+.giftCardContainer2 {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: RlBasisGrotesque, Avenir, Helvetica Neue, Helvetica, sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+  .giftCardContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: #f9f4ff;
+    justify-content: center;
+    margin: 50px auto;
+    padding: 40px;
+    max-width: 750px;
+    width: 100%;
+  }
+  .giftCardContainer2Heading {
+    font-size: 21px;
+    font-weight: 900;
+    margin-top: 10px;
+  }
+  .giftCardContainer2Para {
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    line-height: 1.4;
+    margin-top: 10px;
+  }
+
+  .giftCardContainer2Btn {
+    background-color: #593cfb;
+    color: white;
+    line-height: 50px;
+    font-weight: bold;
+    border: 1px solid white;
+    font-size: 18px;
+    padding: 0px 10px;
+    margin: 15px 0 0 0;
+  }
+  .giftCardContainer1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .giftCardContainer1Img {
+    width: 87%;
+    max-width: 375px;
+  }
+  .giftCardContainer2 {
+    font-family: RlBasisGrotesque, Avenir, Helvetica Neue, Helvetica, sans-serif;
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  .giftCardContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: #f9f4ff;
+    justify-content: center;
+    margin: 50px auto;
+    padding: 40px;
+    max-width: 1032px;
+    width: 100%;
+  }
+}

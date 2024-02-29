@@ -1,0 +1,34 @@
+.carouselContainer3 {
+  width: 90%;
+  margin: 0 auto;
+  font-family: RlBasisGrotesque, Avenir, Helvetica Neue, Helvetica, sans-serif;
+}
+
+.carouselHeading3 {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.carouselHeadingContainer3 {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.carouselContainer3Slider {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 425px) {
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+}
+@media only screen and (min-width: 1201px) {
+}

@@ -1,0 +1,52 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+
+  font-family: BasisGrotesque, Avenir, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.navbarBtn {
+  background-color: white;
+  border: 1px solid;
+  padding: 5px;
+  display: none;
+}
+
+.logoStyling {
+  height: 24px;
+  width: 65px;
+}
+.navbarIconContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbarIconContainer1 {
+}
+.navbarIconContainer2 {
+}
+.navbarIcon {
+  height: 24px;
+  width: 24px;
+  margin: 0 5px;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .navbarBtn {
+    display: flex;
+  }
+  .logoStyling {
+    height: 32px;
+    width: 88px;
+  }
+  .navbarIconContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px;
+  }
+}
